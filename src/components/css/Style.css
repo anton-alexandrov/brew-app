@@ -1,0 +1,64 @@
+h1 {
+  color: #3a3a3a;
+  font-size: 2rem;
+  flex: 1;
+  margin: 0 1px;
+  color: rgb(150, 192, 83);
+  text-indent: 20px;
+}
+
+h2 {
+  color: #3a3a3a;
+  font-size: 1rem;
+  flex: 1;
+  margin: 0 1px;
+  color: white;
+}
+
+.item {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(12, 4, 4);
+  background: linear-gradient(
+    45deg,
+    rgba(238, 236, 128, 0.941) 30%,
+    rgb(155, 224, 77) 60%,
+    rgb(185, 73, 21) 100%
+  );
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+  max-width: 350px;
+  margin: 5px 30px;
+}
+
+.item h2 {
+  color: rgb(23, 69, 221);
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-style: italic;
+}
+
+.column {
+  float: left;
+  width: 100%;
+}
+
+.batch-row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+input{
+  width: 140px;
+  text-align: center;
+}

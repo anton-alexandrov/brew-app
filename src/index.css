@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #a5cc28;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.pFHTpVwugoQkuqLN29YJ7gHaEK%26pid%3DApi&f=1&ipt=630420b011f13a93b9c0c13907e1a957967cbb6c90b1c908e23bafcb69359252&ipo=images);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
